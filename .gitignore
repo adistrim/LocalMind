@@ -1,0 +1,35 @@
+# Ignore Node.js dependencies (for Svelte)
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Ignore build files (for Svelte)
+build/
+dist/
+.svelte-kit/
+.vite/
+
+# Ignore TypeScript and Svelte compiler cache
+*.tsbuildinfo
+.svelte-kit/output/
+
+# Ignore Deno dependencies and cache
+deno.lock
+deno_cache/
+.deno/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+*.DS_Store
+Thumbs.db
+
+# Ignore environment variables and sensitive files
+.env
+.env.local
+.env.*.local
+.DS_Store
